@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+        .subscribe-btn{
+            background-color: rgb(200, 0,0);
+            color: white;
+            border: none;
+            width: 120px;
+            padding: 10px;
+            border-radius: 3px;
+            /*Đổi dấu chuột khi di chuột vào button*/
+            cursor: pointer;
+            transition: box-shadow 1s;
+        }
+        .subscribe-btn:hover{
+            box-shadow: 5px 5px /* 5px*/ black;
+            opacity: 0.7;
+        }
+        .subscribe-btn:active{
+            opacity: 0.5;
+        }
+
+        #join-btn{
+            background-color: white;
+            border-color: blue;
+            /*Viền cứng*/
+            border-style: solid;
+            color: blue;
+            padding: 8px 18px 8px 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: opacity 1s;
+            transition: box-shadow 1s;
+            
+
+        }
+        #join-btn:hover{
+            background-color: blue;
+            color: white;
+            box-shadow: 5px 5px /* 5px*/ rgba(0, 0,0,0.3);
+        }
+        #join-btn:active{
+            background-color: rgb(69, 69, 251);
+            color: white;
+        }
+        .tweet-btn{
+            background-color: #1d9bf0;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            border-style: solid;
+            padding:10px;
+            width: 80px;
+            cursor: pointer;;
+            transition: box-shadow 1s;
+            /*Cấu trúc box-shadow: right bottom blur color (có thể không cần blur cũng đc*/
+             
+
+        }
+        .tweet-btn:hover{
+            opacity: 0.7;
+            box-shadow: 5px 5px /* 5px*/ rgba(0, 0,0,0.3);
+
+        }
+        .tweet-btn:active{
+            opacity: 0.5;
+        }
+
+    </style>
+    <button class = "subscribe-btn">SUBSCRIBE</button>
+    <button id="join-btn">JOIN</button>
+    <button class="tweet-btn">Tweet</button>
+</body>
+</html>

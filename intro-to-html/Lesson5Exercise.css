@@ -1,0 +1,120 @@
+.Tahoma{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 30px;
+}
+.Arial{
+font-family: Arial;
+font-weight: bold;
+font-size: 20px;
+line-height: 0px;
+}
+.Arial2{
+    font-style: italic;
+    color: red;
+    font-size: 15px;
+    line-height: 5px;
+}
+.Verdana{
+    font-family: Verdana;
+}
+#Grey{
+    color: gray;
+    font-family: Ver;
+}
+#HTML{
+    font-weight: bold;
+    font-size: 20px;
+}
+#learn{
+    font-size: 10px;
+    width: 180px;
+    height: 30px;
+}
+#Start-btn{
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.d5Arial{
+    font-family: Arial;
+    text-align: center;
+}
+#shopping{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+#see{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#learn2{
+    color: blue;
+}
+.e5{
+font-family: Arial;
+text-align: center;
+}
+#new{
+    color: orangered;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+#macbook{
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 0;
+}
+#super{
+    line-height: 0;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#from{
+    font-size:10px;
+    line-height: 40px;
+}
+#buy-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: none;
+}
+.number1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.USD{
+    color: gray;
+}
+.number2{
+    color:green;
+}
+.number3{
+    color:gray;
+}
+.number4{
+    color: red;
+}
+.org{
+    font-weight: bold;
+}
+.h1{
+    color: gray;
+
+}
+.text{
+    margin-top: 0px;
+    width: 500px;
+    height: 50px;
+}
+
+.tlink{
+    color: blue;
+}

@@ -1,0 +1,26 @@
+.A11{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+#div1{
+    background-color: lightblue;
+}
+#div2{
+    background-color: lightpink;
+}
+#div3{
+    background-color: lightblue;
+}
+.B11{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.C11{
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+#C{
+    background-color: lightpink;
+}

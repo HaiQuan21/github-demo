@@ -1,0 +1,66 @@
+input{
+    display: block;
+    margin: 5px;
+}
+.Thanks{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.img{
+    width: 300px;
+   margin-left: 600px;
+}
+.Search{
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
+    margin-left: 500px;
+    font-size: 20px;
+    ;
+}
+.fname{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: gray;
+    margin-right: 0px;
+
+}
+.lname{
+    width: 114px;
+    height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: gray;
+    margin-left: 0px;
+}
+.email{
+    width: 225px;
+    height: 30px;
+    display: block;
+    font-size: 12px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: gray;
+}
+.Signup-btn{
+    margin-left: 8px;
+    border: none;
+    vertical-align: middle;
+    background-color: blue;
+    color: white;
+    width: 230px;
+    height: 50px;
+    padding-top: 5px;
+    border-radius: 11px;
+    font-size: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.video-youtube-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 10px;
+    width: 1040px;
+    z-index: 0;
+    padding-top: 40px;
+    padding-left: 90px
+}
+.channel1{
+    font-family: Arial;
+    cursor: pointer;
+    width: 280px;
+}
+.thumbnail1{
+    margin-top: 30px;
+    height: 190px;
+    line-height: 0px;
+}
+.video-title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.video-author{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.video-view{
+    margin: 0px;
+    color: gray;
+}
+/*Thủ thuật thay dòng info của youtube không cần phải dùng inline-block mà có thể dùng grid để bớt dài dòng*/
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.channel-img{
+border-radius: 50px;
+width: 50px;
+}
+.video-info{
+    margin-top: 0px;
+    width: 300px;   
+    margin-left: 10px;
+}
+.video-time{
+    position:absolute;
+    font-size: 13px;
+    z-index: 0; 
+    bottom: 5px ;
+    right: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+}
+.thumbnail-row{
+    position: relative;
+    width: 340px;
+}
+

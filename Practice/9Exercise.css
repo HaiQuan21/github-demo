@@ -1,0 +1,74 @@
+.sqr-red{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.cir-green{
+    background-color: green;
+    width: 250px;
+    height: 250px;  
+    border-radius: 300px;
+}
+.box-service{
+    font-family: Arial;
+    border-width: 1px;
+    border: solid;
+    border-color: gray;
+    width: 300px;
+    height: 95px;
+}
+.Youtube-music{
+    font-family: Arial;
+    background-color: black;
+    width: 320px;
+    height: 90px;
+}
+#title{
+    padding-top: 10px;
+    padding-left: 15px;
+    color: white;
+}
+#propose{
+    color: gray;
+    font-size: 13px;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+.profile1{
+    display: inline-block;
+    box-shadow: 5px 5px rgba(0,0,0,0.3);
+    font-family: Arial;
+    width: 200px;
+    height: 320px;
+    margin-left: 50px;
+}
+#image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#name{
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    height: 20px;
+}
+#status-fr{
+    color: gray;
+    margin-top: 8px;
+}
+#btn-add{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+#btn-add:hover{
+    background-color: rgb(3, 3, 184);
+}

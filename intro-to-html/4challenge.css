@@ -1,0 +1,50 @@
+#back-btn{
+    padding: 5px;
+    margin: 10px;
+}
+#next-btn{
+    padding: 5px;
+    margin: 10px;
+}
+a{
+    text-decoration: underline;
+    color: purple;
+    margin: 10px;
+}
+.Stretch-btn{
+    background-color: green ;
+    border: none;
+    color: white;
+    padding: 5px;
+    transition-duration: 1s;
+}
+.Stretch-btn:hover{
+    transition-duration: 1s;
+    padding:10px;
+}
+.Shadown-btn{
+    background-color: green ;
+    border: none;
+    color: white;
+    padding: 5px;
+    box-shadow: 4px 4px 4px rgba(0, 0,0, 0.3);
+    cursor: pointer;
+}
+.Shadown-btn:active
+{
+    margin-top: 5px;
+    margin-left: 5px;
+    box-shadow: none;
+}
+.one-btn{
+    background-color: green ;
+    border: none;
+    color: white;
+    padding: 5px;
+    transition-duration: 1s;
+}
+.one-btn:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    transition-duration: 1s;
+}
